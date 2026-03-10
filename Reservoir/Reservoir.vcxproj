@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{46a1c45e-c978-4aa9-9862-ee439ea01bbd}</ProjectGuid>
-    <RootNamespace>homeworks</RootNamespace>
+    <ProjectGuid>{43ab1cc2-1a71-4d6f-9ad9-b32897cf63f1}</ProjectGuid>
+    <RootNamespace>Reservoir</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,15 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Apartment.h" />
-    <ClInclude Include="House.h" />
-    <ClInclude Include="Person.h" />
+    <None Include=".gitignore" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Apartment.cpp" />
-    <ClCompile Include="House.cpp" />
+    <ClInclude Include="Reservoir.h" />
+    <ClInclude Include="ReservoirArray.h" />
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Person.cpp" />
+    <ClCompile Include="Reservoir.cpp" />
+    <ClCompile Include="ReservoirArray.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

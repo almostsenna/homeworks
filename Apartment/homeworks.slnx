@@ -3,5 +3,6 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Project Path="homeworks.vcxproj" />
   <Project Path="Reservoir/Reservoir.vcxproj" Id="43ab1cc2-1a71-4d6f-9ad9-b32897cf63f1" />
 </Solution>
