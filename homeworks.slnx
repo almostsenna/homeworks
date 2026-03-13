@@ -8,6 +8,7 @@
   </Folder>
   <Project Path="Apartment/homeworks.vcxproj" Id="d102cc2f-63f6-c77e-1a04-09d393c86e5c" />
   <Project Path="Complex/Complex.vcxproj" Id="3d9964f6-d669-4e00-83f1-8591b2db85c9" />
+  <Project Path="Date/Date.vcxproj" Id="0f92de1b-8555-4592-b8d9-0afdbd41e1a9" />
   <Project Path="Fraction/Fraction.vcxproj" Id="3c828742-5142-443c-af6f-e4a001e104e3" />
   <Project Path="Reservoir/Reservoir.vcxproj" Id="43ab1cc2-1a71-4d6f-9ad9-b32897cf63f1" />
 </Solution>
