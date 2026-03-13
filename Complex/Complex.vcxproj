@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{43ab1cc2-1a71-4d6f-9ad9-b32897cf63f1}</ProjectGuid>
-    <RootNamespace>Reservoir</RootNamespace>
+    <ProjectGuid>{3d9964f6-d669-4e00-83f1-8591b2db85c9}</ProjectGuid>
+    <RootNamespace>Complex</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,13 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Reservoir.h" />
-    <ClInclude Include="ReservoirArray.h" />
+    <ClInclude Include="Complex.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Complex.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Reservoir.cpp" />
-    <ClCompile Include="ReservoirArray.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

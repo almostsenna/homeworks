@@ -15,21 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Reservoir.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ReservoirArray.h">
+    <ClInclude Include="Complex.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Reservoir.cpp">
+    <ClCompile Include="Complex.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ReservoirArray.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
