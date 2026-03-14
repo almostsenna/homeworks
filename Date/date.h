@@ -31,7 +31,7 @@ public:
     Date& operator+=(int n);
     Date& operator-=(int n);
 
-    // дружні оператори для введення і виведення
+    // оператори для введення і виведення
     friend std::ostream& operator<<(std::ostream& os, const Date& d);
     friend std::istream& operator>>(std::istream& is, Date& d);
 };
