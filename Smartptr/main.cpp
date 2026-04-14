@@ -8,7 +8,7 @@
 using namespace std;
 
 void testUniquePtr() {
-    cout << "\n================ UNIQUE PTR TEST ================\n";
+    cout << "\n================ UNIQUE PTR TEST ================\n"; //якщо вже робити масштабну домашку, то вже робити її гарною))
 
     MyUniquePtr<Engine> engine1(new Engine("Ferrari", 1050));
 
